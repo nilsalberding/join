@@ -4,7 +4,7 @@
 .content {
   @include all.d-flex($alit: flex-start);
   gap: 2.5rem;
-  padding: 0 0 0 9.6rem;
+  // padding: 0 0 0 9.6rem;
 
   form {
     @include all.d-flex();
@@ -15,15 +15,18 @@
       @include all.d-flex($flexdir: row, $alit: flex-start, $cgap: 2.4rem);
       width: 100%;
       padding-right: 0.5rem;
+      // height: 42.5rem;
 
       @media (max-width: 1140px) {
         display: block;
-        height: 65dvh;
+        height: 62rem;
         overflow-y: auto;
       }
 
+
       @media (max-height: 950px) {
         height: 60dvh;
+        overflow-y: auto;
         gap: 1.6rem;
       }
 

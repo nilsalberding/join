@@ -3,7 +3,7 @@
 section {
   @include all.d-flex($alit: flex-start, $jc: flex-start);
   background-color: all.$lightgray;
-  padding-top: 9.6rem;
+  // padding-top: 9.6rem;
 }
 
 @include all.mobile {

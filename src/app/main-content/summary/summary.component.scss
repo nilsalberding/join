@@ -64,8 +64,7 @@ section {
   background-color: #f6f7f8;
   @include all.d-flex($alit: flex-start, $jc: flex-start);
   gap: 4rem;
-  padding: 9.6rem;
-  padding-right: 1.6rem;
+
 
   @include all.notebook {
     padding: 5.6rem;
